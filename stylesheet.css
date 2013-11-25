@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 @CHARSET "UTF-8";
 
-=======
->>>>>>> aca3866bd4a888301b793ded309101c3a1d531a5
 div {
 	border-radius: 5px;
 }
@@ -14,11 +11,8 @@ div {
 	margin-top: -20px;
 	height: 60px;
 	background-color: #668284;
-<<<<<<< HEAD
 	margin-bottom: 5px;
-=======
 	margin-bottom: 10px;
->>>>>>> aca3866bd4a888301b793ded309101c3a1d531a5
 }
 
 .header {
@@ -30,21 +24,15 @@ div {
 	padding-left: 10px;
 	background-color: #668284;
 }
-<<<<<<< HEAD
 
 #name {
 	float: left;
-=======
-#name {
-	float:left;
->>>>>>> aca3866bd4a888301b793ded309101c3a1d531a5
 	margin-left: 5px;
 	padding-top: 5px;
 	font-size: 16px;
 	font-family: Verdana, sans-serif;
 	color: #ffffff;
 }
-<<<<<<< HEAD
 
 #link {
 	float: left;
@@ -66,17 +54,13 @@ div {
 
 #email {
 	float: right;
-=======
-#backButton{
-	float:left;
 	margin-left: 5px;
 	padding-top: 5px;
 	font-size: 16px;
 }
 
-#email{
-	float:right;
->>>>>>> aca3866bd4a888301b793ded309101c3a1d531a5
+#email {
+	float: right;
 	margin-right: 5px;
 	padding-top: 5px;
 	font-size: 16px;
@@ -106,19 +90,16 @@ li {
 a:hover {
 	color: darkgreen;
 }
-<<<<<<< HEAD
 
 a {
 	text-decoration: none;
 }
 
 a:visited {
-=======
-a{
 	text-decoration: none;
 }
-a:visited{
->>>>>>> aca3866bd4a888301b793ded309101c3a1d531a5
+
+a:visited {
 	color: violet;
 }
 
@@ -157,7 +138,6 @@ a:visited{
 	position: relative;
 	padding-top: 15px;
 }
-<<<<<<< HEAD
 
 #table {
 	table-layout: auto;
@@ -172,17 +152,18 @@ a:visited{
 
 td {
 	padding-right: 10px;
-	text-align: left 
+	text-align: left
 }
-=======
+
 #table {
 	table-layout: auto;
 	border-style: groove;
 }
-#table th{
-		border-bottom-style: groove;
+
+#table th {
+	border-bottom-style: groove;
 }
-td{
+
+td {
 	padding-right: 10px;
 }
->>>>>>> aca3866bd4a888301b793ded309101c3a1d531a5
