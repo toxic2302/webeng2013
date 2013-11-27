@@ -10,9 +10,9 @@
 	<div class="header">
 		<a href="index.html"><p id="link">Hauptseite</p></a> <a
 			href="http://validator.w3.org/check?uri=http%3A%2F%2Ffloriankolb.cloudcontrolled.com%2Fxhtml_standard.html&charset=%28detect+automatically%29&doctype=XHTML+1.0+Strict&group=0&user-agent=W3C_Validator%2F1.3+http%3A%2F%2Fvalidator.w3.org%2Fservices"><img
-			id="image" src="http://www.w3.org/Icons/valid-xhtml10"></img> </a> <a
+			class="image" src="http://www.w3.org/Icons/valid-xhtml10"></img> </a> <a
 			href="http://validator.w3.org/check?uri=http%3A%2F%2Ffloriankolb.cloudcontrolled.com%2Fxhtml_standard.html&charset=%28detect+automatically%29&doctype=XHTML+1.0+Strict&group=0&user-agent=W3C_Validator%2F1.3+http%3A%2F%2Fvalidator.w3.org%2Fservices"><img
-			id="image" src="http://www.w3.org/Icons/valid-css2-blue"></img></a>
+			class="image" src="http://www.w3.org/Icons/valid-css2-blue"></img></a>
 	</div>
 	<h2 style="text-align: center">XHTML 1.0 strict Standard</h2>
 	<p></p>
@@ -29,31 +29,31 @@
 		<tr>
 			<td>&lt;a&gt;</td>
 			<td>Verweis (Hyperlink) und Anker fuer Verweise</td>
-			<td></td>
+			<td>inline</td>
 			<td>yes</td>
 		</tr>
 		<tr>
 			<td>&lt;abbr&gt;</td>
 			<td>Abkuerzung</td>
-			<td></td>
+			<td>inline</td>
 			<td>yes</td>
 		</tr>
 		<tr>
 			<td>&lt;acronym&gt;</td>
 			<td>Akronym</td>
-			<td></td>
+			<td>inline</td>
 			<td>yes</td>
 		</tr>
 		<tr>
 			<td>&lt;adress&gt;</td>
 			<td>Kontaktangabe zum Autor eines Inhalts (Credits)</td>
-			<td></td>
+			<td>?</td>
 			<td>yes</td>
 		</tr>
 		<tr>
 			<td>&lt;area&gt;</td>
 			<td>Verweis-sensitiver Bereich in einer Image-Map-Grafik</td>
-			<td></td>
+			<td>?</td>
 			<td>yes</td>
 		</tr>
 		<tr>
@@ -66,7 +66,7 @@
 		<tr>
 			<td>&lt;base&gt;</td>
 			<td>Basis-URL fuer Referenzen</td>
-			<td></td>
+			<td>?</td>
 			<td>yes</td>
 		</tr>
 		<tr>
@@ -90,14 +90,14 @@
 		<tr>
 			<td>&lt;body&gt;</td>
 			<td>Inhaltsbereich eines HTML-Dokuments</td>
-			<td></td>
+			<td>?</td>
 			<td>yes</td>
 		</tr>
 		<tr>
 			<td>&lt;br&gt;</td>
 			<td>Erzwungener Zeilenumbruch an der betreffenden Stelle</td>
-			<td></td>
-			<td>yes</td>
+			<td>inline</td>
+			<td>no</td>
 		</tr>
 		<tr>
 			<td>&lt;button&gt;</td>
@@ -108,7 +108,7 @@
 		<tr>
 			<td>&lt;caption&gt;</td>
 			<td>Tabellenueberschrift / -unterschrift</td>
-			<td></td>
+			<td>?</td>
 			<td>yes</td>
 		</tr>
 		<tr>
@@ -126,13 +126,13 @@
 		<tr>
 			<td>&lt;col&gt;</td>
 			<td>Tabellenspalte</td>
-			<td></td>
+			<td>?</td>
 			<td>no</td>
 		</tr>
 		<tr>
 			<td>&lt;colgroup&gt;</td>
 			<td>Gruppe von Tabellenspalten</td>
-			<td></td>
+			<td>?</td>
 			<td>no</td>
 		</tr>
 		<tr>
@@ -223,29 +223,29 @@
 			<td>&lt;i&gt;</td>
 			<td>spezieller Ausdruck im Text, z.B. Fachterminus oder Idiom
 				(ueblicherweise kursiv dargestellt)</td>
-			<td></td>
-			<td>yes</td>
+			<td>inline</td>
+			<td>no</td>
 
 		</tr>
 		<tr>
 			<td>&lt;img&gt;</td>
 			<td>Referenzierte und eingebettete Grafik</td>
-			<td></td>
-			<td>yes</td>
+			<td>inline</td>
+			<td>no</td>
 
 		</tr>
 		<tr>
 			<td>&lt;input&gt;</td>
 			<td>Formularelement, verwendbar fuer diverse Typen wie
 				Eingabefelder, Schaltflaechen, Auswahlfelder usw.</td>
-			<td></td>
-			<td>yes</td>
+			<td>inline</td>
+			<td>no</td>
 
 		</tr>
 		<tr>
 			<td>&lt;ins&gt;</td>
 			<td>Eingefuegter Inhalt (Aenderungsmarkierung)</td>
-			<td></td>
+			<td>inline</td>
 			<td>yes</td>
 
 		</tr>
@@ -253,29 +253,29 @@
 			<td>&lt;kpd&gt;</td>
 			<td>Darstellung eines ueber Tastatur einzugebenden Textes im
 				Text</td>
-			<td></td>
+			<td>inline</td>
 			<td>yes</td>
 
 		</tr>
 		<tr>
 			<td>&lt;label&gt;</td>
 			<td>Beschriftungstext eines Formularfeldes</td>
-			<td></td>
-			<td>yes</td>
+			<td>inline</td>
+			<td>no</td>
 
 		</tr>
 		<tr>
 			<td>&lt;legend&gt;</td>
 			<td>Ueberschrift fuer eine fieldset-Gruppe von Elementen in
 				einem Formular</td>
-			<td></td>
-			<td>yes</td>
+			<td>?</td>
+			<td>no</td>
 
 		</tr>
 		<tr>
 			<td>&lt;li&gt;</td>
 			<td>Listenpunkt in einer ul-, ol- oder menu-Liste</td>
-			<td></td>
+			<td>block</td>
 			<td>yes</td>
 
 		</tr>
@@ -283,234 +283,234 @@
 			<td>&lt;link&gt;</td>
 			<td>Logische Beziehungen der aktuellen Webseite zu anderen
 				Webseiten</td>
-			<td></td>
-			<td>yes</td>
+			<td>?</td>
+			<td>no</td>
 
 		</tr>
 		<tr>
 			<td>&lt;map&gt;</td>
 			<td>Bereich fuer verweis-sensitive Grafiken</td>
-			<td></td>
-			<td>yes</td>
+			<td>inline</td>
+			<td>no</td>
 
 		</tr>
 		<tr>
 			<td>&lt;meta&gt;</td>
 			<td>Meta-Angabe fuer nicht im Inhalt sichtbare
 				Dokumentinformationen oder fuer Anweisungen an den Webserver</td>
-			<td></td>
-			<td>yes</td>
+			<td>?</td>
+			<td>no</td>
 
 		</tr>
 		<tr>
 			<td>&lt;noscript&gt;</td>
 			<td>Bereich fuer Inhalte, die angezeigt werden, wenn JavaScript
 				im Browser deaktiviert oder nicht verfuegbar ist</td>
-			<td></td>
-			<td>yes</td>
+			<td>block</td>
+			<td>no</td>
 
 		</tr>
 		<tr>
 			<td>&lt;object&gt;</td>
 			<td>Eingebettetes Objekt, geeignet fuer spezielle
 				Multimedia-Objekte, Java-Applets usw.</td>
-			<td></td>
-			<td>yes</td>
+			<td>inline</td>
+			<td>no</td>
 
 		</tr>
 		<tr>
 			<td>&lt;ol&gt;</td>
 			<td>Geordnete (z.B. nummerierte) Liste</td>
-			<td></td>
-			<td>yes</td>
+			<td>block</td>
+			<td>no</td>
 
 		</tr>
 		<tr>
 			<td>&lt;optgroup&gt;</td>
 			<td>Gruppe von Auswahlmoeglichkeiten in einer Auswahlliste</td>
-			<td></td>
-			<td>yes</td>
+			<td>?</td>
+			<td>no</td>
 
 		</tr>
 		<tr>
 			<td>&lt;option&gt;</td>
 			<td>Auswahlmoeglichkeit in einer Auswahlliste</td>
-			<td></td>
-			<td>yes</td>
+			<td>?</td>
+			<td>no</td>
 
 		</tr>
 		<tr>
 			<td>&lt;p&gt;</td>
 			<td>Paragraph</td>
-			<td></td>
+			<td>block</td>
 			<td>yes</td>
 
 		</tr>
 		<tr>
 			<td>&lt;param&gt;</td>
 			<td>Parameter eines Objekts bei object-Element</td>
-			<td></td>
-			<td>yes</td>
+			<td>?</td>
+			<td>no</td>
 
 		</tr>
 		<tr>
 			<td>&lt;pre&gt;</td>
 			<td>Praeformatierter Text (alle Whitespace-Zeichen werden im
 				Browser so dargestellt wie im Text enthalten)</td>
-			<td></td>
-			<td>no</td>
+			<td>block</td>
+			<td>yes</td>
 
 		</tr>
 		<tr>
 			<td>&lt;q&gt;</td>
 			<td>Woertliche Rede in einem Text</td>
-			<td></td>
+			<td>inline</td>
 			<td>yes</td>
 
 		</tr>
 		<tr>
 			<td>&lt;samp&gt;</td>
 			<td>Beispieltext in einem dokumentierenden Text</td>
-			<td></td>
+			<td>inline</td>
 			<td>yes</td>
 
 		</tr>
 		<tr>
 			<td>&lt;script&gt;</td>
 			<td>Scriptbereich fuer JavaScript und andere Scriptsprachen</td>
-			<td></td>
-			<td>yes</td>
+			<td>inline</td>
+			<td>no</td>
 
 		</tr>
 		<tr>
 			<td>&lt;select&gt;</td>
 			<td>Auswahlliste in einem Formular</td>
-			<td></td>
-			<td>yes</td>
+			<td>inline</td>
+			<td>no</td>
 
 		</tr>
 		<tr>
 			<td>&lt;small&gt;</td>
 			<td>kleiner dargestellter Text als Normalschrift</td>
-			<td></td>
+			<td>inline</td>
 			<td>no</td>
 
 		</tr>
 		<tr>
 			<td>&lt;span&gt;</td>
 			<td>allgemeiner Bereich innerhalb eines Absatzes</td>
-			<td></td>
-			<td>yes</td>
+			<td>inline</td>
+			<td>no</td>
 
 		</tr>
 		<tr>
 			<td>&lt;strong&gt;</td>
 			<td>allgemeiner Bereich innerhalb eines Absatzes</td>
-			<td></td>
+			<td>inline</td>
 			<td>yes</td>
 
 		</tr>
 		<tr>
 			<td>&lt;style&gt;</td>
 			<td>Bereich fuer Stylesheet-Definitionen, z.B. in CSS</td>
-			<td></td>
-			<td>yes</td>
+			<td>inline</td>
+			<td>no</td>
 
 		</tr>
 		<tr>
 			<td>&lt;sub&gt;</td>
 			<td>Tiefgestellter Text</td>
-			<td></td>
-			<td>yes</td>
+			<td>inline</td>
+			<td>no</td>
 
 		</tr>
 		<tr>
 			<td>&lt;sup&gt;</td>
 			<td>Hochgestellter Text</td>
-			<td></td>
-			<td>yes</td>
+			<td>inline</td>
+			<td>no</td>
 
 		</tr>
 		<tr>
 			<td>&lt;table&gt;</td>
 			<td>Tabelle</td>
-			<td></td>
-			<td>yes</td>
+			<td>block</td>
+			<td>no</td>
 
 		</tr>
 		<tr>
 			<td>&lt;tbody&gt;</td>
 			<td>Tabellenkoerper mit den eigentlichen Daten</td>
-			<td></td>
-			<td>yes</td>
+			<td>?</td>
+			<td>no</td>
 
 		</tr>
 		<tr>
 			<td>&lt;td&gt;</td>
 			<td>Tabellenzelle</td>
-			<td></td>
-			<td>yes</td>
+			<td>?</td>
+			<td>no</td>
 
 		</tr>
 		<tr>
 			<td>&lt;textarea&gt;</td>
 			<td>Mehrzeiliger Eingabebereich in einem Formular</td>
-			<td></td>
-			<td>yes</td>
+			<td>inline</td>
+			<td>no</td>
 
 		</tr>
 		<tr>
-			<td>&lt;tfood&gt;</td>
+			<td>&lt;tfoot&gt;</td>
 			<td>Fussbereich in einer Tabelle, z.B. fuer summarische Daten</td>
-			<td></td>
-			<td>yes</td>
+			<td>?</td>
+			<td>no</td>
 
 		</tr>
 		<tr>
 			<td>&lt;th&gt;</td>
 			<td>Tabellenkopfzelle</td>
-			<td></td>
-			<td>yes</td>
+			<td>?</td>
+			<td>no</td>
 
 		</tr>
 		<tr>
 			<td>&lt;thead&gt;</td>
 			<td>Kopfbereich einer Tabelle</td>
-			<td></td>
-			<td>yes</td>
+			<td>?</td>
+			<td>no</td>
 
 		</tr>
 		<tr>
 			<td>&lt;title&gt;</td>
 			<td>Titel eines HTML-Dokuments</td>
-			<td></td>
-			<td>yes</td>
+			<td>?</td>
+			<td>no</td>
 
 		</tr>
 		<tr>
 			<td>&lt;tr&gt;</td>
 			<td>Tabellenzeile</td>
-			<td></td>
-			<td>yes</td>
+			<td>?</td>
+			<td>no</td>
 
 		</tr>
 		<tr>
 			<td>&lt;tt&gt;</td>
 			<td>(Fernschreiber)-Text</td>
-			<td></td>
+			<td>inline</td>
 			<td>yes</td>
 
 		</tr>
 		<tr>
 			<td>&lt;ul&gt;</td>
 			<td>Unsortierte Liste (Aufzaehlungsliste)</td>
-			<td></td>
-			<td>yes</td>
+			<td>block</td>
+			<td>no</td>
 		</tr>
 		<tr>
 			<td>&lt;var&gt;</td>
 			<td>Variabler Name in einem dokumentierenden Text</td>
-			<td></td>
+			<td>inline</td>
 			<td>yes</td>
 		</tr>
 	</table>
