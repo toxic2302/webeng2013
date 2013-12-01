@@ -80,6 +80,9 @@ li {
 a:hover {
 	color: #06731C;
 }
+a{
+	target:_blank;
+}
 
 a:visited {
 	text-decoration: none;
