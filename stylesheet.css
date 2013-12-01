@@ -3,7 +3,7 @@
 #header {
 	z-index: 1;
 	position: fixed;
-	width: 100%;
+	width: 99%;
 	margin-top: -20px;
 	height: 60px;
 	background-color: #06731C;
@@ -35,7 +35,7 @@
 	padding-top: 15px;
 	font-size: 14px;
 	font-family: Tahoma, sans-serif;
-	color: #000000;
+	color: #ffffff;
 	text-decoration: none;
 }
 
@@ -50,12 +50,6 @@
 #email {
 	float: right;
 	margin-left: 5px;
-	padding-top: 5px;
-	font-size: 16px;
-}
-
-#email {
-	float: right;
 	margin-right: 5px;
 	padding-top: 5px;
 	font-size: 16px;
@@ -87,10 +81,6 @@ a:hover {
 	color: #06731C;
 }
 
-a {
-	text-decoration: none;
-}
-
 a:visited {
 	text-decoration: none;
 	color: #06731C;
@@ -101,15 +91,16 @@ a:visited {
 	float: left;
 	margin-top: 50px;
 	width: 10%;
-	height: 60px;
-	background-color: #06731C;
+	height: 350px;
+	background-color: #959C97;
 	margin-bottom: 10px;
 }
 
 #menu {
 	float:left;
 	width: 100px;
-	background-color: #ff9900;
+	height: 335px;
+	background-color: #959C97;
 	padding: 5px;
 	position: relative;
 	margin-top: 50px;
@@ -119,8 +110,8 @@ a:visited {
 	float: right;
 	margin-top: 50px;
 	width: 88%;
-	height: 400px;
-	background-color: #959C97;
+	height: 350px;
+	background-color: #ffffff;
 	margin-bottom: 10px;
 }
 
@@ -144,27 +135,19 @@ a:visited {
 	table-layout: auto;
 	border-style: solid;
 	margin-left: 10px;
+		
 }
 
 #table th {
 	border-bottom-style: solid;
 	border-bottom-color: #06731C;
-}
-
-td {
-	padding-right: 10px;
-	text-align: left
-}
-
-#table {
-	table-layout: auto;
-	border-style: groove;
-}
-
-#table th {
 	border-bottom-style: groove;
 }
 
 td {
 	padding-right: 10px;
+	text-align: left;
+}
+table tr th {
+	color:#06731C;
 }
