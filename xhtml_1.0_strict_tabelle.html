@@ -37,17 +37,18 @@
 	<p></p>
 	<h1 style="text-align: center">XHTML 1.0 strict Standard</h1>
 	<p></p>
-	
-	<form id="suche" action="http://de.wikipedia.org/wiki/Spezial:Suche">
+	<form action="http://de.wikipedia.org/wiki/Spezial:Suche">
 	<fieldset>
 	<legend>Wikipedia-Suche</legend>
-	<input type="text" name="search" value=""/>
-	<input type="submit" name="go" value="Artikel" />
-	<input type="submit" name="fulltext" value="Volltext" />	
+	<label for="textfeld">Suchbegriff:</label>
+	<input type="text" id="textfeld" name="search" value=""/>
+	<input type="submit" name="go" value="Artikel"/>
+	<input type="submit" name="fulltext" value="Volltext"/>
 	</fieldset>
 	</form>
 	
 	<p></p>
+	
 	<table id="table" rules="all" width="98%">
 		<tr>
 			<th>Element-Tag</th>
